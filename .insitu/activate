@@ -1,4 +1,6 @@
 #!/source/this/sh
+cp ./lbin/* ~/.local/bin/
+
 cd ..
 
 export_ () { export $1=$2; }
@@ -20,6 +22,4 @@ bozo () {
     [ -f ${p}.$1 ] && { ${p}.$*          ; return $?; }
     [ -f ${p}.$1 ] || { ${p}.__bad__ $*  ; return $?; }
 }
-
-. ./__init__ $*
 

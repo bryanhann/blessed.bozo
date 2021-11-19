@@ -1,0 +1,8 @@
+#!/bin/sh
+main () {
+    local p=${BOZO_BIN}/bozo
+    [ "$1" == "" ] && { ${p}.__null__ $* ; return $?; }
+    [ -f ${p}.$1 ] && { ${p}.$*          ; return $?; }
+    [ -f ${p}.$1 ] || { ${p}.__bad__ $*  ; return $?; }
+}
+main $*
