@@ -1,0 +1,25 @@
+usage () {
+    echo "USAGE:"
+    echo "    . src.bozo.dot {NAME} [{ARGS}]"
+    echo "    source the dotfile [\$BOZO/dot.{NAME}] with {ARGS} "
+    echo "NAMES:"
+    echo "    .bashrc"
+    echo "    .profile"
+    echo "    ...etc"
+}
+main () {
+    [ -f ${BOZO}/dot$1 ] && {
+        . ${BOZO}/dot$*
+        return $?
+    }
+    usage
+    case .$1 in
+        .-h) ;;
+        .--help) ;;
+        *)
+            echo "NAME=[$1] is not a valid name."
+            ;;
+    esac
+}
+
+main $*
