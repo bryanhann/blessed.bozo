@@ -1,0 +1,3 @@
+echo ++BL.BOZO.NULL [$0] [$*]
+set | grep "^_bl_"
+echo --BL.BOZO.NULL [$0] [$*]

@@ -1,0 +1,3 @@
+echo ++BOZO/bin/bl.bozo.__bad__ [$0] [$*]
+set | grep "^_bl_"
+echo --BOZO/bin/bl.bozo.__bad__ [$0] [$*]

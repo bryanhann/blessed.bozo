@@ -8,6 +8,7 @@ export_ BOZO        ${PWD}
 export_ BOZO_BIN    ${BOZO}/bin
 export_ BOZO_BUILD  ${BOZO}/.build
 export_ BOZO_VENDOR ${BOZO_BUILD}/.vendor
+export_ BLESSED_BOZO_BIN ${BOZO_BIN}
 
 .bozo () {
     local p=${BOZO_BIN}/src.bozo

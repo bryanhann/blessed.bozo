@@ -1,0 +1,8 @@
+#!/bin/bash
+# __blessed__SELF=${BLESSED_BOZO_BIN}/bl.bozo
+__null__ () { echo FUNCTION __null__ was called. [$*];  }
+__help__ () { echo FUNCTION __help__ was called. [$*];  }
+__bad__  () { echo FUNCTION __bad__  was called. [$*];  }
+__main__ () { ${_bl_line}; return $?; }
+. poet.blesser # ${BLESSED_BOZO_BIN}/bl.bozo $0 $*
+__blessed__ ${BLESSED_BOZO_BIN}/bl.bozo $0 $*
