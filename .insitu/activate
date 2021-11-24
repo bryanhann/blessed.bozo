@@ -2,7 +2,7 @@
 cp ./lbin/* ~/.local/bin/
 
 cd ..
-
+poet.baptize ${PWD}/bin/bl.bozo ${HOME}/.local/bin/bl.bozo
 export_ () { export $1=$2; }
 export_ BOZO        ${PWD}
 export_ BOZO_BIN    ${BOZO}/bin

@@ -1,2 +1,0 @@
-#!/bin/sh
-$(poet.dot $0) $BLESSED_BOZO_BIN/bl.bozo $*
