@@ -8,5 +8,3 @@ alias bg="zjot new [bg] "
 alias food="zjot new [food]"
 alias ins="zjot new [humalog]"
 alias lins="zjot new [tresiba]"
-alias user=".bozo user"
-echo [BOZO]: enter [user] for a better user experience.
