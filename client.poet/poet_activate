@@ -1,1 +1,2 @@
-. blessed.poet .bashrc
+. blessed.poet aliases
+. poet.activate bch
