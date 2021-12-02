@@ -1,0 +1,7 @@
+#!/source/this/sh
+monty () {
+    poet.blessed.install monty
+    . blessed.monty activate
+}
+
+echo "[user.bashrc]: Type 'monty' For a better user experience."

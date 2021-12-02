@@ -1,0 +1,4 @@
+#!/source/this/sh
+
+poet.blessed.install bch
+. blessed.bch activate
