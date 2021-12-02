@@ -1,3 +1,0 @@
-echo ++BL.BOZO.HELP [$0] [$*]
-set | grep "^_bl_"
-echo --BL.BOZO.HELP [$0] [$*]

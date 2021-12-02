@@ -1,0 +1,3 @@
+#!/bin/bash
+export_ () { export $1="$2"; }
+${__BLESSED_DOT__} ${__BLESSED_CLIENT__}$*

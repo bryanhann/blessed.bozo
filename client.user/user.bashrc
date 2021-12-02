@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/source/this/sh
 
 alias .gpo="pushd $POET"
 alias .gpoem="pushd $POET_POEM"

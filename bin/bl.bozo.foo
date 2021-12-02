@@ -1,3 +1,0 @@
-echo ++BOZO/bin/bl.bozo.foo [$0] [$*]
-set | grep "^_bl_"
-echo --BOZO/bin/bl.bozo.foo [$0] [$*]
