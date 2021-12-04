@@ -1,2 +1,2 @@
 . blessed.poet aliases
-. poet.activate bch
+. poet.bless -a bch
