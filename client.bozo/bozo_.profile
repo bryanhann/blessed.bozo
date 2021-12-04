@@ -1,4 +1,4 @@
 #!/source/this/sh
-echo ++[ $__BLESSED_DOT__ BOZO.profile ]
+echo "__________________________________________________[.PROFILE]"
 . blessed.bozo activate
-echo --[ $__BLESSED_DOT__ BOZO.profile ]
+echo "__________________________________________________[.PROFILE]"
