@@ -1,8 +1,5 @@
 #!/source/this/sh
 
-alias .gpo="pushd $POET"
-alias .gpoem="pushd $POET_POEM"
-alias .guser="pushd $POET_USER"
 alias zz="blessed.zjot new"
 alias bg="blessed.zjot new [bg] "
 alias food="blessed.zjot new [food]"
