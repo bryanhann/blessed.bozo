@@ -2,6 +2,4 @@
 . poet.bless -a bch
 
 alias monty=". poet.bless -a monty"
-echo
-echo "    [blessed.bozo]: type 'monty' to activate the monty prompt"
-echo
+echo "# [blessed.bozo]: type 'monty' to activate the monty prompt"
