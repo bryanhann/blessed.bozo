@@ -3,9 +3,7 @@
 here=$(dirname ${__BLESSED_CLIENT__})
 
 bozo_dot() {
-    poet.line enter $1
     ${__BLESSED_DOT__} $here/dot$*
-    poet.line exit $1
 }
 
 if [ -f $here/dot$1 ]; then
